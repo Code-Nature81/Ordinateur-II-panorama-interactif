@@ -1,4 +1,6 @@
 
+	
+
 
 html, body {
 	margin: 0;
@@ -13,7 +15,7 @@ body{
 	padding: 0;
 	background-color:  rgb(255, 255, 255);
 }
-
+@media screen and (min-width:1300px) {
 .esp{
     width: 35px; margin-left:30px ; margin-top: -100px;
 }
@@ -168,6 +170,7 @@ body{
     
     
 }
+}
  @media (min-width: 768px) {
 	 .BornHS__Wrapper .BornHS__Input + .BornHS__Label {
 		 height: 30px;
@@ -285,4 +288,3 @@ body{
 		 width: 2px;
 	}
 }
- 
